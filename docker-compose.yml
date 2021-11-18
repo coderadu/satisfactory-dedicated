@@ -9,4 +9,4 @@ services:
       - "15000:15000/udp"
       - "15777:15777/udp"
     volumes:
-      - "pathtoconfigfolder:/config"
+      - "pathtoconfigfolder:/server/config"
