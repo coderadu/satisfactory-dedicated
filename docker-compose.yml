@@ -10,8 +10,3 @@ services:
       - "15777:15777/udp"
     volumes:
       - "pathtoconfigfolder:/config"
-    environment:
-      - MAXPLAYERS=4
-      - PGID=1000
-      - PUID=1000
-      - STEAMBETA=false
