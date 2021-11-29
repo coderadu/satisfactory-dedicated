@@ -8,7 +8,8 @@ if ! test -f steamcmd.sh; then
   echo "Done"
 fi
 
-./steamcmd.sh +login anonymous +force_install_dir /server/config/gamedata +app_update 1690800 -beta experimental +quit
+./steamcmd.sh +force_install_dir /server/config/gamedata +login anonymous +app_update 1690800 +quit
+mkdir config/saves
 echo Starting server
 chmod a+rwx -R /server
 mkdir -p /home/server/.config/Epic/FactoryGame/Saved/SaveGames/server
