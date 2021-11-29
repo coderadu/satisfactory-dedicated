@@ -3,7 +3,7 @@ services:
   satisfactory-server:
     container_name: "satisfactory-server"
     hostname: "satisfactory-server"
-    image: "radugmu/satisfactory-dedicated:latest"
+    image: "radugmu/satisfactory-dedicated:experimental"
     ports:
       - "7777:7777/udp"
       - "15000:15000/udp"

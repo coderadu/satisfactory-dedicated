@@ -8,7 +8,7 @@ if ! test -f steamcmd.sh; then
   echo "Done"
 fi
 
-./steamcmd.sh +force_install_dir /server/config/gamedata +login anonymous +app_update 1690800 +quit
+./steamcmd.sh +force_install_dir /server/config/gamedata +login anonymous +app_update 1690800 -beta experimental +quit
 mkdir config/saves
 echo Starting server
 chmod a+rwx -R /server

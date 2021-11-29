@@ -1,6 +1,6 @@
 # satisfactory-dedicated
 
-This is a dockerized version of Satisfactory dedicated server.
+This is a dockerized version of experimental Satisfactory dedicated server.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ This is a dockerized version of Satisfactory dedicated server.
 
 - Docker
   - Run
-    `docker run -p 15777:15777/udp -p 15000:15000/udp -p 7777:7777/udp -v pathtoconfigfolder:/server/config -d radugmu/satisfactory-dedicated`
+    `docker run -p 15777:15777/udp -p 15000:15000/udp -p 7777:7777/udp -v pathtoconfigfolder:/server/config -d radugmu/satisfactory-dedicated:experimental`
 - Docker Compose
   - Download the docker-compose.yml file from the repository
   - Run `docker-compose up` or `docker compose up`
