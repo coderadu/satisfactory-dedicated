@@ -5,7 +5,7 @@ WORKDIR /server
 # Install dependencies
 
 RUN apt update && apt upgrade -y
-RUN apt install -y curl zip lib32gcc1 openssl
+RUN apt install -y curl zip lib32gcc-s1 openssl
 
 # Expose ports
 
